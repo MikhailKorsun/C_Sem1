@@ -3,7 +3,7 @@
 // 3 -> Среда
 // 5 -> Пятница
 
-Console.Write("Введите число: ");
+Console.Write("Введите число дня недели: ");
 int dayNumber = Convert.ToInt32(Console.ReadLine());
 
 switch (dayNumber)
