@@ -4,7 +4,7 @@
 
 Console.Write("Введите натуральное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-int index = 0 - number;
+int index = -1 * number;
 Console.Write($"Целые числа в промежутке [{index},{number}]: ");
 while (index <= number)
 {
