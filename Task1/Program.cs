@@ -10,7 +10,8 @@ int secondNumber = Convert.ToInt32(Console.ReadLine());
 if (firstNumber == secondNumber * secondNumber)
 {
     Console.WriteLine($"Число {firstNumber} является квадратом числа {secondNumber}");
-} else
+}
+ else
 {
     Console.WriteLine($"Число {firstNumber} не является квадратом числа {secondNumber}");
 }
