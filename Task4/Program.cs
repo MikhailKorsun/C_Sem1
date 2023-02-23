@@ -12,11 +12,7 @@ Console.Write("Введите число 3: ");
 int thirdNumber = Convert.ToInt32(Console.ReadLine());
 int max = firstNumber;
 if (secondNumber > max)
-{
     max = secondNumber;
-}
 if (thirdNumber > max)
-{
     max = thirdNumber;
-}
 Console.Write($"Максимальное число: {max}");

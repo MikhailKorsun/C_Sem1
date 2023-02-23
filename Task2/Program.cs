@@ -10,7 +10,5 @@ Console.Write("Введите число 2: ");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
 int max = firstNumber;
 if (secondNumber > max)
-{
     max = secondNumber;
-}
 Console.Write($"Максимальное число = {max}");

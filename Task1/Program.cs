@@ -8,10 +8,6 @@ int firstNumber = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число 2: ");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
 if (firstNumber == secondNumber * secondNumber)
-{
     Console.WriteLine($"Число {firstNumber} является квадратом числа {secondNumber}");
-}
  else
-{
     Console.WriteLine($"Число {firstNumber} не является квадратом числа {secondNumber}");
-}
